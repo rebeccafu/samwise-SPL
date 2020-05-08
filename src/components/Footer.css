@@ -1,0 +1,66 @@
+h1 {
+    margin:2%;
+}
+
+h2, p {
+    margin: 0
+}
+
+.row {
+    margin: 0
+}
+
+.footer {
+    margin-top:40px;
+    background-color:#F8F4ED;
+}
+
+.footer-content {
+    margin-top:0%;
+    width:100%;
+    padding:50px;
+}
+
+.mission {
+    font-size:18px;
+    background-color:#F8F4ED;
+    text-align:center;
+    padding-bottom:2%;
+}
+
+.samwise {
+    font-size:18px;
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.samwise-logo {
+    display:block;
+    padding-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+}
+
+@media screen and (max-width: 760px) {
+    .mission {
+        font-size:16px;
+        background-color:#F8F4ED;
+        text-align:center;
+        padding-bottom:4%;
+    }
+    
+    .samwise {
+        font-size:16px;
+        margin-left:2%;
+        margin-right:2%;
+    }
+    
+    .samwise-logo {
+        display:block;
+        padding-top:5%;
+        margin-left:auto;
+        margin-right:auto;
+        width:50%;
+    }
+  }
